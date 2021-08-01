@@ -448,7 +448,7 @@ h1 {
 
 input {
   width: 49.5%;
-  min-height: 4rem;
+  /* min-height: 4rem; */
   font-size: 1.2rem;
   padding: 10px 24px;
   border: 1px solid #11101D;
@@ -456,9 +456,21 @@ input {
   border-radius: 4px;
 }
 
+.r1 {
+  height: 20%;
+}
+
+.r2 {
+  height: 60%;
+}
+
+.r3 {
+  height: 20%;
+}
+
 textarea {
   width: 100%;
-  min-height: 15rem;
+  /* min-height: 15rem; */
   font-size: 1.2rem;
   padding: 10px 24px;
   border: 1px solid #11101D;
@@ -469,7 +481,7 @@ textarea {
 button {
   width: 100%;
   align-self: center;
-  min-height: 4rem;
+  /* min-height: 4rem; */
   font-size: 1.2rem;
   padding: 10px 24px;
   color: #fff;
@@ -530,11 +542,11 @@ button:hover {
 
   input, button {
     width: 100%;
-    min-height: 1.8rem;
+    /* min-height: 1.8rem; */
   }
 
   textarea {
-    min-height: 4rem;
+    /* min-height: 4rem; */
     font-size: 1rem;
   }
 
