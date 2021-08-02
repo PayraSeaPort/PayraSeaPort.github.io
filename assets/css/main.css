@@ -283,12 +283,12 @@ body {
   margin: 8px 10px;
 }
 
-.update h2 {
+.hero h2 {
   color: #fff;
   font-size: 4rem;
 }
 
-.update {
+.hero {
   position: absolute;
   left: 0%;
   top: 25%;
@@ -296,13 +296,31 @@ body {
   margin-left: 20px;
 }
 
-.update .intro {
+.hero .intro {
   color: #fff;
   font-size: 1.5rem;
   margin-top: 20px;
   font-weight: 400;
   line-height: 30px;
   text-shadow: 2px 2px 2px #000;
+}
+
+.hero .herobtn-cover {
+  margin-top: 2.5rem;
+}
+
+.herobtn {
+  font-size: 1.2rem;
+  background-color: #11101d;
+  text-align: center;
+  padding: 0.8rem 3rem;
+  border-radius: 4%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.herobtn:hover {
+  background-color: #1d1b31;
 }
 
 #project-details{
@@ -508,11 +526,11 @@ button:hover {
     width: 65px;
   }
 
-  .update h2 {
+  .hero h2 {
     font-size: 2rem;
   }
 
-  .update .intro {
+  .hero .intro {
     font-size: 10pt;
   }
 
@@ -548,6 +566,10 @@ button:hover {
   textarea {
     /* min-height: 4rem; */
     font-size: 1rem;
+  }
+
+  .herobtn {
+    font-size: 0.9rem;
   }
 
 }
